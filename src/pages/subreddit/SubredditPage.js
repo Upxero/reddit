@@ -32,7 +32,7 @@ function SubredditPage() {
             <main>
                 <section className="outer-container subreddit-specifications">
                     <div className="inner-container">
-                        {Object.keys(details).length > 0 && (
+                        {details && (
                             <div className="subreddit-specification-details">
                                 <h3>Title</h3>
                                 <p>{details.title}</p>
