@@ -5,7 +5,7 @@ import Header from '../../components/Header';
 import './SubredditPage.css';
 
 function SubredditPage() {
-    const [details, setDetails] = useState({});
+    const [details, setDetails] = useState();
     const { id } = useParams();
 
     useEffect(() => {
